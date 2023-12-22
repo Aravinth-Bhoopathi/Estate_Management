@@ -1,4 +1,4 @@
-# Estate Management App - Client
+# Estate Management App
 
 - Estate Management App handle with React JS.
 
