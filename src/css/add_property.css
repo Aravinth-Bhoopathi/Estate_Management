@@ -1,0 +1,67 @@
+.form_parent {
+  font-family: Poppins;
+  border: 1px solid rgba(214, 214, 214, 0.402);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.659);
+  margin: 20px 20px 0px;
+}
+.form_parent h3 {
+  margin-top: 0;
+  font-weight: 400;
+  color: rgb(23, 0, 54);
+  background: rgba(240, 240, 240, 0.61);
+  padding: 15px 15px;
+  font-size: 16px;
+}
+.form_child_container {
+  display: flex;
+  padding: 15px 15px;
+}
+.form_child_1 {
+  width: 33%;
+}
+.form_child_heading {
+  color: rgb(117, 117, 117);
+  font-size: 15px;
+}
+::placeholder {
+  font-family: Poppins;
+  color: rgb(195, 195, 195);
+}
+.form_child_input {
+  border: none;
+  border-bottom: 1px solid rgba(208, 208, 208, 0.558);
+  background: rgba(255, 255, 255, 0.659);
+  width: 90%;
+  outline: none;
+  padding: 0px 0px 15px;
+  font-size: 15px;
+}
+.error_tag {
+  color: red;
+}
+
+.create_form {
+  text-align: center;
+}
+.create_form_submit {
+  border: 1px solid rgb(191, 191, 191);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: gray;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+.create_form_submit:hover {
+  border: 1px solid rgb(106, 0, 255);
+  background-color: rgb(226, 226, 255);
+  color: rgb(50, 0, 119);
+}
+.create_form_back{
+  text-decoration: none;
+  border: 1px solid rgb(191, 191, 191);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: rgb(9, 0, 134);
+  font-size: 14px;
+}
